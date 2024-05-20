@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang='pt'>
+    <head>
+        <link rel="stylesheet" href="casa.css">
+        <meta charset='utf-8'>
+        <meta name="description" content="Investimento habitacional">
+        <meta name="keywords" content="valor, tempo, nome">
+        <meta name="author" content="dalcripeto">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        <div class='pagina clearfix'>
+            <div class='cabecalho'>
+                <h1>Investimento Habitacional</h1>
+            </div>
+            <div class='conteudo'>
+                <h3 style='display: flex;'>Valor da casa: <input id='inp1' type="text" style='width: 80px; margin-left: 5px; margin-right: 5px;' value='0'>&euro;</h3>
+                <div class='membro-contribuicao'>
+                    <div class='membros'>
+                        <ul>
+                            <li>Teresa Cutabiala</li>
+                            <li>Celmira Cristóvão</li>
+                            <li>Azenate Samuel</li>
+                            <li>Samuel Cahoji</li>
+                            <li>Cristóvão Cristóvão</li>
+                        </ul>
+                    </div>
+                    <div class='contribuicao'>
+                        <ul>
+                            <li><span id='teresa'>0</span>&euro;</li>
+                            <li><span id='celmira'>0</span>&euro;</li>
+                            <li><span id='azenate'>0</span>&euro;</li>
+                            <li><span id='samuel'>0</span>&euro;</li>
+                            <li><span id='cristovao'>0</span>&euro;</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class='tempo'>
+                    <h3>Valor mensal: <input class='inp2' type="text" style='width: 80px;' value='0' on></h3>
+                    <h5>Meses:<span id='meses'></span></h5>
+                    <h5>Anos:<span id='anos'></span></h5>
+                    <h5>Total:<span id='total'></span></h5>
+                </div>
+            </div>
+            <div class='rodape'>
+                <footer><small>&copy2024 dalcripeto. All rights reserved.</small></footer>
+            </div>
+            
+        </div>
+        <script src='casa.js'></script>
+    </body>
+</html>

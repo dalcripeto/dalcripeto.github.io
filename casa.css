@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: rgb(138, 136, 133);
+    padding-left: 200px;
+}
+.pagina{
+    width: 800px;
+    height: 800px;
+    padding: 0px;
+    background-color: rgb(247, 242, 242);
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.cabecalho{
+    width: inherit;
+    margin: 0;
+    height: 100px;
+    padding: 5px;
+    text-align: center;
+    background-color: aqua;
+}
+.conteudo{
+    border: 2px solid tomato;
+    border-radius: 20px;
+    padding: 10px;
+}
+.membros{
+    width: inherit;
+    height: 200px;
+
+}
+.membros > ul > li{
+    padding: 5px;
+    list-style: none;
+}
+.contribuicao {
+    /* padding: 5px;
+    border: 2px solid tomato;
+    float: right; */
+}
+.contribuicao > ul > li{
+    list-style: none;
+    padding: 5px;
+}
+.membro-contribuicao{
+    display: flex;
+}
+.rodape{
+    float: right;
+    background-color: gray;
+}
